@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sage Willock | Portfolio</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --card-bg: #141414;
+            --accent: #00f2ff;
+            --text: #e0e0e0;
+            --muted: #888;
+        }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 40px 20px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 60px; }
+        h1 { font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 10px; }
+        .accent { color: var(--accent); }
+        .category { margin-bottom: 40px; }
+        h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 2px; color: var(--muted); border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        a { background: var(--card-bg); padding: 20px; display: block; text-decoration: none; color: var(--text); border: 1px solid #333; border-radius: 8px; transition: 0.3s; font-size: 0.9rem; }
+        a:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0, 242, 255, 0.1); }
+        footer { text-align: center; margin-top: 80px; color: var(--muted); font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Sage Willock <span class="accent"> Web Designer</span></h1>
+        <p>Premium Digital Architecture & Scalable Web Solutions</p>
+    </header>
+
+    <!-- BEAUTY & FITNESS -->
+    <div class="category">
+        <h2>Wellness & Aesthetic</h2>
+        <div class="grid">
+            <a href="https://lumiere-lash-aura.base44.app">Luxury Lash Studio</a>
+            <a href="https://cooperative-aura-clinic-refined.base44.app">Medical Aesthetic Clinic</a>
+            <a href="https://elevate-emma-mode.base44.app">Women's Fitness Coach</a>
+            <a href="https://primitive-forma-pilates-house.base44.app">Pilates Studio</a>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="category">
+        <h2>Professional Services</h2>
+        <div class="grid">
+            <a href="https://apex-lead-scale.base44.app">Business Coach</a>
+            <a href="https://sterling-vance-legal.base44.app">Law Firm</a>
+            <a href="https://accounting-firm-wealth.base44.app">Accounting Firm</a>
+            <a href="https://kinetic-just-motion-lab.base44.app">Physiotherapy</a>
+        </div>
+    </div>
+
+    <!-- LIFESTYLE & PROPERTY -->
+    <div class="category">
+        <h2>Lifestyle & Commerce</h2>
+        <div class="grid">
+            <a href="https://atelier-resturant.base44.app">Premium Restaurant</a>
+            <a href="https://epicurean-event-craft.base44.app">Catering Company</a>
+            <a href="https://somerset-reserve-brew.base44.app">Boutique Coffee Shop</a>
+            <a href="https://opulence-estate-aura.base44.app">Estate Agent</a>
+            <a href="https://host-haven-flow.base44.app">Airbnb Management</a>
+        </div>
+    </div>
+
+    <!-- TECHNICAL & CREATIVE -->
+    <div class="category">
+        <h2>Creative & Infrastructure</h2>
+        <div class="grid">
+            <a href="https://maison-interior-designs.base44.app">Luxury Interior Designer</a>
+            <a href="https://ironclad-buildings.base44.app">Construction Company</a>
+            <a href="https://royal-hound-spa.base44.app">Luxury Dog Groomer</a>
+            <a href="https://obsidian-detail-flow-car-care.base44.app">Automotive Detailing</a>
+            <a href="https://kinetica-motion-frame.base44.app">Video Production</a>
+            <a href="https://nova-event-atelier.base44.app">Luxury Event Planner</a>
+            <a href="https://elite-scholars-path-app.base44.app">Tutoring Academy</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Sage | Web Designer 
+Simple. Professional. Powerful.
+    </footer>
+</div>
+
+</body>
+</html>
