@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca Henning | Premium Digital Production</title>
+    <style>
+        :root {
+            --bg-dark: #090d16;
+            --card-bg: #111726;
+            --accent: #d4af37; /* Premium Matte Gold/Champagne */
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+        
+        body { 
+            font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+            background-color: var(--bg-dark);
+            background-image: 
+                radial-gradient(circle at 0% 0%, rgba(212, 175, 55, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, rgba(30, 41, 59, 0.3) 0%, transparent 50%);
+            color: var(--text-main); 
+            margin: 0; 
+            padding: 80px 20px; 
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+
+        .container { max-width: 950px; margin: 0 auto; }
+        
+        header { text-align: center; margin-bottom: 80px; }
+        
+        h1 { 
+            font-size: 3.5rem; 
+            font-weight: 800;
+            margin: 0; 
+            letter-spacing: -1px;
+            background: linear-gradient(to right, #ffffff, #cbd5e1); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+        }
+        
+        .sub-header { 
+            color: var(--accent); 
+            letter-spacing: 4px; 
+            font-size: 0.85rem; 
+            text-transform: uppercase; 
+            margin-top: 15px; 
+            font-weight: 600;
+        }
+
+        /* Structured Row Blocks to keep everything sectioned out perfectly */
+        .section-block {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 35px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent);
+            margin: 0;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .section-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, var(--border-color), transparent);
+            margin-left: 20px;
+        }
+
+        /* The Grid within the blocks */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 16px; 
+        }
+        
+        a { 
+            background: rgba(255, 255, 255, 0.02); 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-decoration: none; 
+            color: var(--text-main); 
+            border: 1px solid var(--border-color); 
+            border-radius: 10px; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        a .link-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text-main);
+            transition: color 0.3s;
+        }
+
+        a .link-tag {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+        }
+        
+        a:hover { 
+            border-color: var(--accent); 
+            background: rgba(255, 255, 255, 0.04);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px -10px rgba(212, 175, 55, 0.15);
+        }
+
+        a:hover .link-title {
+            color: var(--accent);
+        }
+
+        footer { 
+            text-align: center; 
+            margin-top: 120px; 
+            color: var(--text-muted); 
+            font-size: 0.8rem; 
+            letter-spacing: 2px; 
+            text-transform: uppercase;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            body { padding: 40px 15px; }
+            .section-block { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Bianca Hendricks</h1>
+        <div class="sub-header">High-Performance Digital Architecture</div>
+    </header>
+
+    <!-- SECTION 1: BEAUTY & WELLNESS -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Beauty &amp; Aesthetics</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://lumiere-lash-aura.base44.app" target="_blank">
+                <span class="link-title">Lumière Lash Studio</span>
+                <span class="link-tag">Luxury Lash Studio</span>
+            </a>
+            <a href="https://vixen-velvet-gaze.base44.app" target="_blank">
+                <span class="link-title">Vixen Velvet Gaze</span>
+                <span class="link-tag">Premium Lashes</span>
+            </a>
+            <a href="https://onyx-atelier-nails.base44.app" target="_blank">
+                <span class="link-title">Onyx Atelier Nails</span>
+                <span class="link-tag">Nail Salon Experience</span>
+            </a>
+            <a href="https://large-maison-silk-atelier.base44.app" target="_blank">
+                <span class="link-title">Maison Silk Atelier</span>
+                <span class="link-tag">Boutique Hair Studio</span>
+            </a>
+            <a href="https://cooperative-aura-clinic-refined.base44.app" target="_blank">
+                <span class="link-title">Aura Clinic</span>
+                <span class="link-tag">Medical Aesthetic Clinic</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SECTION 2: HEALTH & FITNESS -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Health &amp; Performance</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://elevate-emma-mode.base44.app" target="_blank">
+                <span class="link-title">Elevate Mode</span>
+                <span class="link-tag">Women's Fitness Coach</span>
+            </a>
+            <a href="https://elated-apex-human-lab.base44.app" target="_blank">
+                <span class="link-title">Apex Human Lab</span>
+                <span class="link-tag">Personal Training</span>
+            </a>
+            <a href="https://primitive-forma-pilates-house.base44.app" target="_blank">
+                <span class="link-title">Forma Pilates House</span>
+                <span class="link-tag">Pilates Studio</span>
+            </a>
+            <a href="https://kinetic-just-motion-lab.base44.app" target="_blank">
+                <span class="link-title">Kinetic Motion Lab</span>
+                <span class="link-tag">Physiotherapy Practice</span>
+            </a>
+            <a href="https://armored-pearl-smile-studio.base44.app" target="_blank">
+                <span class="link-title">Pearl Smile Studio</span>
+                <span class="link-tag">Cosmetic Dentistry</span>
+            </a>
+            <a href="https://gentry-court-club.base44.app" target="_blank">
+                <span class="link-title">Gentry Court Club</span>
+                <span class="link-tag">Sports Club &amp; Arena</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SECTION 3: COMMERCIAL & COMMERCE -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Food &amp; Hospitality</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://atelier-resturant.base44.app" target="_blank">
+                <span class="link-title">Atelier Restaurant</span>
+                <span class="link-tag">Premium Fine Dining</span>
+            </a>
+            <a href="https://epicurean-event-craft.base44.app" target="_blank">
+                <span class="link-title">Epicurean Event Craft</span>
+                <span class="link-tag">Catering &amp; Culinary Design</span>
+            </a>
+            <a href="https://gilded-fig-feast.base44.app" target="_blank">
+                <span class="link-title">Gilded Fig Feast</span>
+                <span class="link-tag">Boutique Catering</span>
+            </a>
+            <a href="https://somerset-reserve-brew.base44.app" target="_blank">
+                <span class="link-title">Somerset Reserve Brew</span>
+                <span class="link-tag">Boutique Coffee Shop</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SECTION 4: PROFESSIONAL SERVICES -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Corporate &amp; Strategy</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://apex-lead-scale.base44.app" target="_blank">
+                <span class="link-title">Apex Lead Scale</span>
+                <span class="link-tag">Business Strategy Coach</span>
+            </a>
+            <a href="https://vance-clarity-lab.base44.app" target="_blank">
+                <span class="link-title">Vance Clarity Lab</span>
+                <span class="link-tag">Executive Consulting</span>
+            </a>
+            <a href="https://sterling-vance-legal.base44.app" target="_blank">
+                <span class="link-title">Sterling Vance Legal</span>
+                <span class="link-tag">Law Firm Corporate Site</span>
+            </a>
+            <a href="https://accounting-firm-wealth.base44.app" target="_blank">
+                <span class="link-title">Vance Wealth Advisors</span>
+                <span class="link-tag">Accounting Firm Framework</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SECTION 5: PROPERTY & INFRASTRUCTURE -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Property, Home &amp; Trades</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://opulence-estate-aura.base44.app" target="_blank">
+                <span class="link-title">Opulence Estate Agency</span>
+                <span class="link-tag">Real Estate Ecosystem</span>
+            </a>
+            <a href="https://host-haven-flow.base44.app" target="_blank">
+                <span class="link-title">Host Haven Flow</span>
+                <span class="link-tag">Airbnb Property Management</span>
+            </a>
+            <a href="https://maison-interior-designs.base44.app" target="_blank">
+                <span class="link-title">Maison Interior Designs</span>
+                <span class="link-tag">Luxury Architecture &amp; Interiors</span>
+            </a>
+            <a href="https://ironclad-buildings.base44.app" target="_blank">
+                <span class="link-title">Ironclad Construction</span>
+                <span class="link-tag">Commercial &amp; Civil Infrastructure</span>
+            </a>
+            <a href="https://apex-core-plumbers.base44.app" target="_blank">
+                <span class="link-title">Apex Core Plumbers</span>
+                <span class="link-tag">Trade Plumbing Solutions</span>
+            </a>
+            <a href="https://sceptical-iron-oak-craft.base44.app" target="_blank">
+                <span class="link-title">Iron Oak Craft</span>
+                <span class="link-tag">Architectural Carpentry</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SECTION 6: SPECIALIZED NICHE DEMOS -->
+    <div class="section-block">
+        <div class="section-header">
+            <h2 class="section-title">Specialized Verticals</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="grid">
+            <a href="https://royal-hound-spa.base44.app" target="_blank">
+                <span class="link-title">Royal Hound Spa</span>
+                <span class="link-tag">Premium Pet Care Logistics</span>
+            </a>
+            <a href="https://obsidian-detail-flow-car-care.base44.app" target="_blank">
+                <span class="link-title">Obsidian Detail Flow</span>
+                <span class="link-tag">Premium Automotive Care</span>
+            </a>
+            <a href="https://vanguard-flow-sync.base44.app" target="_blank">
+                <span class="link-title">Vanguard Flow Sync</span>
+                <span class="link-tag">Commercial Supply &amp; Logistics</span>
+            </a>
+            <a href="https://kinetica-motion-frame.base44.app" target="_blank">
+                <span class="link-title">Kinetica Motion Frame</span>
+                <span class="link-tag">Video Production Engine</span>
+            </a>
+            <a href="https://nova-event-atelier.base44.app" target="_blank">
+                <span class="link-title">Nova Event Atelier</span>
+                <span class="link-tag">Luxury Event Design</span>
+            </a>
+            <a href="https://elite-scholars-path-app.base44.app" target="_blank">
+                <span class="link-title">Elite Scholars Path</span>
+                <span class="link-tag">Premium Academic Tutoring</span>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Bianca Henning. Engineered for Business Conversion.
+    </footer>
+</div>
+
+</body>
+</html>
